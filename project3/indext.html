@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS 3일차 - 등급 계산기</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+        padding: 20px;
+      }
+      input,
+      button {
+        padding: 8px 10px;
+      }
+      #gradeText {
+        margin-top: 10px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <script src="script.js"></script>
+  <body>
+    <h1>등급 계산기</h1>
+
+    <input type="number" id="score" placeholder="점수(0~100)" />
+    <button onclick="showGrade()">계산</button>
+    <p id="gradeText">등급이 여기서 표시됩니다</p>
+  </body>
+</html>
