@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>📋 To Do List</h1>
+
+    <input id="todoInput" placeholder="할 일을 입력하세요" />
+    <button id="addBtn">추가</button>
+
+    <div class="filter-btns" id="filterButtons">
+      <button data-filter="all">전체</button>
+      <button data-filter="done">완료</button>
+      <button data-filter="undone">미완료</button>
+    </div>
+
+    <ul id="todoList"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
